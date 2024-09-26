@@ -1,0 +1,223 @@
+*{margin: 0; padding: 0;}/*auto en margin eka ain krnna */
+.clearfix{overflow: auto;}/*&float damama bg color ek ynw ek nathi krnna*/
+*{ text-decoration: none;}/*hama hyper link ekakama underline ek nthi krna*/
+
+
+.wrapper{
+    height: 1700px;
+    width: 100%;
+    background: url(../../public/background2.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.Navbar{
+    background-color: rgb(14, 7, 75);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    
+    
+    
+}
+.portpolio{
+    padding: 40px 30px;
+    margin-left: 40px;
+    float: left;
+    animation: slideRight .5s ease forwards;
+
+}
+.portpolio a {
+    color: #ffffff;
+    font-size: 20px;
+    animation: slideRight 1s ease forwards;
+}
+.portpolio a:hover{
+    color: aqua;
+    border-bottom: 1px aqua solid ;
+}
+.items{
+   padding: 40px 30px ;
+    float: right;
+    animation: slideTop .5s ease forwards;
+}
+.items ul li{
+    list-style: none;
+}
+.items ul li a {
+    color: #fff;
+    margin: 0px 10px;
+    padding: 0px 20px;
+    font-size: 20px;
+    animation: slideTop .5s ease forwards;
+}
+.items ul li a:hover{
+   
+    color: aqua;
+    border-bottom: 1px aqua solid ;
+}
+.Home{
+    
+    display: flex;
+}
+.text{
+
+    color: #fff;
+    margin-top: 260px;
+    margin-left: 240px;
+}
+.text h3{
+    font-size: 20px;
+    margin-top: 10px;
+    
+    animation: slideBottom .5s ease forwards;
+}
+.text h1{
+    font-size: 40px;
+    
+    animation: slideRight .5s ease forwards;
+    animation-delay: .2s;
+}
+.text p{
+    margin-top: 10px;
+}
+.image {
+    float: right;
+}
+.image img{
+    margin-top: 200px;
+    margin-left: 300px;
+    height: 350px ;   
+    border-radius: 50%;
+    box-shadow: 15px 15px 40px rgb(15, 155, 255), -10px -10px 40px rgba(242, 3, 255, 0.863);
+}
+.image img:hover{
+    box-shadow: 15px 15px 60px rgb(3, 244, 91), -10px -10px 60px rgba(243, 255, 16, 0.863);
+}
+.medias{
+margin: 10px 0px;
+
+    display: inline-flex;
+}
+.FaceBook{
+    font-size: 30px; /* Default font size */
+    color: rgb(25, 255, 255); /* Default color */
+    transition: transform 0.3s ease, font-size 0.3s ease, color 0.3s ease; /* Smooth transition */
+    margin-right: 20px;
+}
+.FaceBook:hover {
+    font-size: 50px; /* Enlarged font size on hover */
+    color: rgb(8, 251, 247); /* Color change on hover */
+    transform: scale(1.1); /* Scale up for zoom-in effect */
+}
+.GitHub a{
+    font-size: 30px; /* Default font size */
+    color: rgb(25, 255, 255); /* Default color */
+    transition: transform 0.3s ease, font-size 0.3s ease, color 0.3s ease; /* Smooth transition */
+    margin-right: 20px;
+}
+.GitHub a:hover {
+    font-size: 50px; /* Enlarged font size on hover */
+    color: rgb(8, 251, 247); /* Color change on hover */
+    transform: scale(1.1); /* Scale up for zoom-in effect */
+}
+.Instergram{
+    font-size: 30px; /* Default font size */
+    color: rgb(25, 255, 255); /* Default color */
+    transition: transform 0.3s ease, font-size 0.3s ease, color 0.3s ease; /* Smooth transition */
+    margin-right: 20px;
+}
+.Instergram:hover {
+    font-size: 50px; /* Enlarged font size on hover */
+    color: rgb(8, 251, 247); /* Color change on hover */
+    transform: scale(1.1); /* Scale up for zoom-in effect */
+}
+.Likedn a{
+    font-size: 30px; /* Default font size */
+    color: rgb(25, 255, 255); /* Default color */
+    transition: transform 0.3s ease, font-size 0.3s ease, color 0.3s ease; /* Smooth transition */
+    margin-right: 20px;
+}
+.Likedn a:hover {
+    font-size: 50px; /* Enlarged font size on hover */
+    color: rgb(8, 251, 247); /* Color change on hover */
+    transform: scale(1.1); /* Scale up for zoom-in effect */
+}
+
+.text button{
+    font-weight: bold;
+    border: none;
+    height: 30px;
+    width: 110px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+.text button:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan
+}
+.text2{
+    width: 100px;
+   letter-spacing: 1px;
+    font-weight: bold;
+    color: aqua;
+}
+@keyframes slideRight {
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+    
+}
+@keyframes slideTop {
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    
+}
+@keyframes slideBottom {
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    
+}
+.aboutme{
+    width: 100%;
+   
+}
+.aboutmeimg{
+    float: left;
+}
+.aboutmeimg img{
+    margin-left: 70px;
+    margin-top: 100px;
+        height: 350px;
+        width: 400px;
+}
+.aboutmetext{
+    margin-top: 40px;
+    float: right;
+}
+.aboutmetext h1{
+    
+    color: #fff;
+}
+
+
